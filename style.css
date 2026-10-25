@@ -251,3 +251,9 @@ footer nav { margin-top: 0.5rem; display: flex; gap: 1rem; justify-content: cent
 @media (max-width: 480px) {
   .services-grid { grid-template-columns: 1fr; }
 }
+
+/* Tables in legal pages (Step Off privacy policy) */
+.legal-body .table-wrap { overflow-x: auto; margin-bottom: 1rem; }
+.legal-body table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+.legal-body th, .legal-body td { text-align: left; vertical-align: top; padding: 0.5rem 0.75rem; border-bottom: 1px solid #e5e5e5; color: #333; }
+.legal-body th { font-weight: 600; color: var(--black); }
